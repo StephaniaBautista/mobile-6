@@ -1,0 +1,64 @@
+.main{
+    margin: 2rem $separacion / 2;
+    display: flex;
+    flex-direction: column;
+    .datos, .datos-contacto{
+        padding: 1rem;
+        border-radius: 1rem;
+        box-shadow: 17px 11px 31px -11px rgba(212,212,212,1);
+        margin-bottom: $separacion / 2;
+        h3{
+             margin: 0;
+             font-weight: $bold;
+             color: $grisOscuro;
+        }
+    }
+}
+
+.datos{
+    .contenedor-datos{
+        display: flex;
+        align-items: center;
+    }
+}
+.nombre{
+    color: $Azul;
+    font-weight: $bold;
+}
+.svg{
+    display: flex;
+    align-items: center;
+    background: $morado;
+    border-radius: 50%;
+    padding: .8rem;
+}
+
+.datos-contacto{
+    display: flex;
+    flex-direction: column;
+    .contenedor-1, .contenedor-2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid $gris;
+        &:last-of-type{
+            border-bottom: none;
+        }
+    }
+    .contenedor-contenido{
+        display: flex;
+        padding: 2rem 0;
+    }
+    
+}
+.contenedor-texto{
+    margin-left: 2rem;
+}
+
+.boton{
+    text-transform: uppercase;
+    color: $AzulClaro;
+    border: none;
+    background: transparent;
+    outline: none;   
+}
