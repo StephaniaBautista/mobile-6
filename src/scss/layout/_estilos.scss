@@ -14,11 +14,34 @@
         }
     }
 }
-
 .datos{
     .contenedor-datos{
         display: flex;
         align-items: center;
+    }
+    .contenedor-imagen{
+        display: flex;
+        .imagen{
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+            background-image: url(../../../build/img/1.webp);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+    .pluma{
+        display: flex;
+        align-items: center;
+        border-radius: 50%;
+        position: absolute;
+        background-color: $blanco;
+        border: 1px solid $gris;
+        width: 1.5rem;
+        height: 1.5rem;
+        top: 9rem;
+        left: 6rem;
     }
 }
 .nombre{
